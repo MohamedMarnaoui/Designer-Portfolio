@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+/*  font-family: 'Work Sans', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    */
+
+
+body {
+margin: 0;
+padding: 0;
+
+}
+
+
+header {
+text-align: center;
+font-family: 'Fjalla One', sans-serif;
+}
+
+main {
+
+    text-align: center;
+    
+}
+
+main h1 {
+
+    color: black;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    
+    padding: 0 21rem;
+    margin-right: 16rem;
+    margin-left: 16rem;
+}
+
+main h2 {
+
+    font-size: 6.7rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+section {
+
+    background-image: url(./img/portfolio2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+section h1 {
+
+    padding-left: 8.5rem;
+    
+    margin-bottom: 0;
+    margin-top:0;
+    padding-top: 2.8rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 300;
+    padding-bottom: 0;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    
+
+}
+
+
+
+section h4 {
+    
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 12rem;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 9rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    
+
+}
+
+section p {
+
+padding-left: 7rem;
+margin-left: 2.0rem;
+padding-top: 3rem;
+color: #777;
+font-size: 1,3rem;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+
+
+
+section h3 {
+
+
+    padding-left: 5.7rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+    padding-top: 6rem;
+    margin-top: 0;
+    color: springgreen;
+    font-weight: 100;
+    
+    }
+
+.btn {
+
+text-align: left;
+padding-left: 9rem;
+margin-right: 3rem;
+padding-bottom: 3rem;
+padding-top: 5rem;
+
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    background: none;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    
+    
+    }
+    
+
+    section div:last-of-type {
+
+        text-align: right;
+
+    }
+
+
+
+ 
+     /* Jetzt kommt Teil 2....Vorsicht mit copy and pace */
+
+     aside {
+
+        background-image: url(./img/portfolio3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    aside h1 {
+
+        padding-left: 8.5rem;
+        
+        margin-bottom: 0;
+        margin-top:0;
+        padding-top: 2.8rem;
+        font-family: 'Didact Gothic', sans-serif;
+        font-weight: 300;
+        padding-bottom: 0;
+        font-size: 1.4rem;
+        color: rgb(189, 52, 52);
+        font-size: 5rem;
+        text-transform: uppercase;
+        
+    
+    }
+
+    aside h4 {
+    
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 12rem;
+        color: rgb(228, 9, 228);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 5rem;
+        padding-bottom: 3rem;
+        padding-top: 0;
+        
+    
+    }
+
+    aside p {
+
+        padding-left: 7rem;
+        margin-left: 2.0rem;
+        padding-top: 3rem;
+        color: rgb(25, 226, 226);
+        font-size: 1,3rem;
+        font-family: 'Work Sans', sans-serif;
+        
+        }
+
+        aside h3 {
+
+
+            padding-left: 5.7rem;
+            margin-left: 3rem;
+            margin-bottom: 0;
+            padding-top: 6rem;
+            margin-top: 0;
+            color: springgreen;
+            font-weight: 100;
+            
+            }
+
+            .btn {
+
+                text-align: left;
+                padding-left: 9rem;
+                margin-right: 3rem;
+                padding-bottom: 3rem;
+                padding-top: 5rem;
+                
+                }
+                
+                button {
+                    width: 120px;
+                    height: 60px;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    background: none;
+                    color: rgb(61, 45, 45);
+                    border-radius: 3px;
+                    text-align: center;
+                    
+                    
+                    }
+
+                
+    
+
+                aside div:last-of-type {
+            
+                    text-align: right;
+            
+                }   
+
+
+    /* Teil 3- wie oben */
+    
+    
+article {
+
+       background-image: url(./img/portfolio4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+        
+    article h1 {
+
+        padding-left: 8.5rem;
+        
+        margin-bottom: 0;
+        margin-top:0;
+        padding-top: 2.8rem;
+        font-family: 'Didact Gothic', sans-serif;
+        font-weight: 300;
+        padding-bottom: 0;
+        font-size: 1.4rem;
+        color: rgb(189, 52, 52);
+        font-size: 5rem;
+        text-transform: uppercase;
+        
+    
+    }
+
+    article h4 {
+    
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 12rem;
+        color: rgb(228, 9, 228);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 5rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        
+    
+    }
+
+    article p {
+
+        padding-left: 7rem;
+        margin-left: 2.0rem;
+        padding-top: 3rem;
+        color: rgb(25, 226, 226);
+        font-size: 1,3rem;
+        font-family: 'Work Sans', sans-serif;
+        
+        }
+
+        article h3 {
+
+
+            padding-left: 5.7rem;
+            margin-left: 3rem;
+            margin-bottom: 0;
+            padding-top: 6rem;
+            margin-top: 0;
+            color: springgreen;
+            font-weight: 100;
+            
+            }
+
+            .btn {
+
+                text-align: left;
+                padding-left: 9rem;
+                margin-right: 3rem;
+                padding-bottom: 3rem;
+                padding-top: 5rem;
+                
+                }
+                
+                button {
+                    width: 120px;
+                    height: 60px;
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    background: none;
+                    color: rgb(235, 181, 181);
+                    border-radius: 3px;
+                    text-align: center;
+                    
+                    
+                    }
+
+                
+    
+
+                article div:last-of-type {
+            
+                    text-align: right;
+                    margin-bottom: 0%;
+                    padding-bottom: 0;
+            
+                }    
+                
+                
+/*Teil 4 final*/
+
+.part5 {
+
+    background-image: url(./img/portfolio5.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+ }
+     
+ .part5 h1 {
+
+     padding-left: 8.5rem;
+     
+     margin-bottom: 0;
+     margin-top:0;
+     padding-top: 2.8rem;
+     font-family: 'Didact Gothic', sans-serif;
+     font-weight: 300;
+     padding-bottom: 0;
+     font-size: 1.4rem;
+     color: rgb(189, 52, 52);
+     font-size: 5rem;
+     text-transform: uppercase;
+     
+ 
+ }
+
+ .part5 h4 {
+ 
+     font-family: 'Fjalla One', sans-serif;
+     font-size: 12rem;
+     color: rgb(228, 9, 228);
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-right: 5rem;
+     padding-bottom: 0;
+     padding-top: 0;
+     
+ 
+ }
+
+ .part5 p {
+
+     padding-left: 7rem;
+     margin-left: 2.0rem;
+     padding-top: 3rem;
+     color: rgb(25, 226, 226);
+     font-size: 1,3rem;
+     font-family: 'Work Sans', sans-serif;
+     
+     }
+
+     .part5 {
+
+
+         padding-left: 5.7rem;
+         margin-left: 3rem;
+         margin-bottom: 0;
+         padding-top: 6rem;
+         margin-top: 0;
+         color: springgreen;
+         font-weight: 100;
+         
+         }
+
+         .btn {
+
+             text-align: left;
+             padding-left: 9rem;
+             margin-right: 3rem;
+             padding-bottom: 3rem;
+             padding-top: 5rem;
+             
+             }
+             
+             button {
+                 width: 120px;
+                 height: 60px;
+                 text-transform: uppercase;
+                 font-size: 1.1rem;
+                 background: none;
+                 color: rgb(235, 181, 181);
+                 border-radius: 3px;
+                 text-align: center;
+                 
+                 
+                 }
+
+             
+ 
+
+             .part5 div:last-of-type {
+         
+                 text-align: right;
+                 margin-bottom: 0%;
+                 padding-bottom: 0;
+         
+             }    
+
